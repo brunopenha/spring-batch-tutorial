@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>br.nom.penha.bruno.tutorial</groupId>
   <artifactId>spring-batch-semdelimitador</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>exemplo-spring-batch-sem</name>
   <description>Projeto exemplo para tratar arquivos com largura fixa</description>
   
