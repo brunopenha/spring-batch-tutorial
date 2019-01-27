@@ -43,8 +43,8 @@ public class ConfiguradorBatch {
 				.name("sujeitoItemReader")
 				.resource(new ClassPathResource("dados-exemplo.txt"))
 				.fixedLength()
-				.addColumns(new Range(1,6))
-				.addColumns(new Range(7,12))
+				.addColumns(new Range(1,6)) // Vai ler da posicao 1 ate o final da 6
+				.addColumns(new Range(7,12))// Vai ler da posicao 7 ate o final da 12
 				.names(new String[] {"primeiroNome", "ultimoNome"})
 				.fieldSetMapper(new BeanWrapperFieldSetMapper<Sujeito>() {
 					{
